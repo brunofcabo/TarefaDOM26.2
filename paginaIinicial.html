@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Compras</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <p>Lista de Compras</p>
+        </div>
+        <div class="qtdItensHeader">
+            <p></p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="listaVazia" id="listaVazia">
+                <img src="./midia/iconeCarrinho.png">
+                <h1>Nenhum item na lista ainda</h1>
+                <p>Toque em "+ Adicionar Item" para começar</p>
+            </div>
+
+            <ul id="listaDeComprasReal" class="listaNaoVazia"></ul>
+
+            <div class="botoes">
+                <button id="botaoModalAdicionarProduto">+ Adicionar Item</button>
+                <button id="botaoEditarLista">
+                    <img src="./midia/iconeEditar.png">
+                    Editar Lista
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./comprasDom.js"></script>
+</body>
+</html>
+
